@@ -1,6 +1,6 @@
   import React from "react";
   import ReactDOM from "react-dom/client";
-  import Applayout from "./App";
+  import Applayout from "./src/App";
   import "./index.css";
 
 

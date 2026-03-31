@@ -1,4 +1,4 @@
-{"data": [
+const data = [
                   {
                     "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                     "info": {
@@ -11,7 +11,7 @@
                       "cuisines": [
                         "Pizzas"
                       ],
-                      "avgRating": 4.3,
+                      "avgRating": 3.9,
                       "parentId": "721",
                       "avgRatingString": "4.3",
                       "totalRatingsString": "111",
@@ -113,7 +113,7 @@
                         "Biryani",
                         "Tandoor"
                       ],
-                      "avgRating": 4.3,
+                      "avgRating": 3.8,
                       "parentId": "27123",
                       "avgRatingString": "4.3",
                       "totalRatingsString": "1.3K+",
@@ -213,7 +213,7 @@
                       "cuisines": [
                         "North Indian"
                       ],
-                      "avgRating": 4.3,
+                      "avgRating": 3.9,
                       "parentId": "376324",
                       "avgRatingString": "4.3",
                       "totalRatingsString": "414",
@@ -856,4 +856,5 @@
                     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
                   }
                 ]
-            }
+            
+export default data;
